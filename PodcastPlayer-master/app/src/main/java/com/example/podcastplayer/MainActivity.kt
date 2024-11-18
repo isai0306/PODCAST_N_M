@@ -75,8 +75,7 @@ fun playAudio(
                 PodcastItem("Track 1", R.raw.audio),
                 PodcastItem("Track 2", R.raw.a1),
                 PodcastItem("Track 3", R.raw.a2),
-                PodcastItem("Track 4", R.raw.a3),
-                PodcastItem("Track 5", R.raw.a4)
+
             ),
             imageResId = R.drawable.tamil,
             backgroundColor = Color(0xFF08364B)
@@ -87,29 +86,17 @@ fun playAudio(
                 PodcastItem("Track 1", R.raw.e1),
                 PodcastItem("Track 2", R.raw.e2),
                 PodcastItem("Track 3", R.raw.e3),
-                PodcastItem("Track 4", R.raw.e4),
-                PodcastItem("Track 5", R.raw.audio_1)
+
             ),
             imageResId = R.drawable.tamil,
             backgroundColor = Color(0xFF89F561)
         ),
-        PodcastPlaylist(
-            title = "Hindi",
-            items = listOf(
-                PodcastItem("Song 1", R.raw.hindi),
-                PodcastItem("Song 2", R.raw.h2),
-                PodcastItem("Song 3", R.raw.h3),
-                PodcastItem("Song 4", R.raw.h4),
-                PodcastItem("Song 5", R.raw.h1)
-            ),
-            imageResId = R.drawable.hindi,
-            backgroundColor = Color(0xFFFFA500)
-        ),
+
+
         PodcastPlaylist(
             title = "Classical Instrumentals",
             items = listOf(
-                PodcastItem("Instrumental 1", R.raw.audio_4),
-                PodcastItem("Instrumental 2", R.raw.t2),
+
                 PodcastItem("Instrumental 3", R.raw.t3),
                 PodcastItem("Instrumental 4", R.raw.t4),
                 PodcastItem("Instrumental 5", R.raw.t1)
@@ -123,8 +110,8 @@ fun playAudio(
                 PodcastItem("Story 1", R.raw.s1),
                 PodcastItem("Story 2", R.raw.s2),
                 PodcastItem("Story 3", R.raw.s3),
-                PodcastItem("Story 4", R.raw.s4),
-                PodcastItem("Story 5", R.raw.audio_1)
+         
+
             ),
             imageResId = R.drawable.img_5,
             backgroundColor = Color(0xFFD32F2F)
